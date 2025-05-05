@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Love Letter Invitation</title>
+  <style>
+    body {
+      background-color: #ffe6f0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: linear-gradient(to bottom right, #ffb6c1, #ffe6eb);
+      border-radius: 20px;
+      padding: 30px 40px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      max-width: 400px;
+      text-align: center;
+      color: #b30059;
+    }
+
+    .card h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    .heart {
+      font-size: 2em;
+      color: #ff3366;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>You're Invited 💌</h1>
+    <div class="heart">❤️</div>
+    <p>
+      My Dearest,<br><br>
+      I invite you to read a letter straight from my heart. <br>
+      Let these words be a warm hug, a sweet whisper, <br>
+      and a reminder of how deeply you are loved.<br><br>
+      Always yours,<br>
+      [Your Name]
+    </p>
+  </div>
+</body>
+</html>
